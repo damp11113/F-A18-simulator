@@ -1,0 +1,653 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1666259895989332, "dur":2431, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666259895991778, "dur":166, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1666259895992004, "dur":41, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1666259895992045, "dur":422, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1666259895992513, "dur":2185, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666259895994698, "dur":3, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666259901037336, "dur":279, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666259901037615, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666259901037629, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666259901037631, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666259901037639, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666259901037641, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666259901037647, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666259901037648, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666259901037655, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666259901037657, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666259901037663, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666259901037665, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666259901037671, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666259901037672, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666259901037679, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666259901037681, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666259901037687, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666259901037706, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666259901037825, "dur":3279, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1666259895993035, "dur":1675, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259895994713, "dur":47004, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259896042256, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1666259896042261, "dur":402, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259896042671, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1666259896042674, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259896042751, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259896043720, "dur":8544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1666259896052270, "dur":119046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1666259896171327, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259896171564, "dur":388847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1666259896560543, "dur":337086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1666259896897639, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259896898254, "dur":13425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1666259896912003, "dur":1389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1666259896913404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259896913412, "dur":119397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1666259897032988, "dur":557236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1666259897590231, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259897590235, "dur":24193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1666259897614645, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259897614788, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259897614854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259897614860, "dur":20992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259897635896, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259897635998, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259897636047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259897636053, "dur":77325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259897713420, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259897713551, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259897713599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259897713606, "dur":54837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259897768490, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259897768593, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259897768640, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259897768647, "dur":26702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259897795396, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259897795511, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259897795569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259897795576, "dur":45643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259897841268, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259897841381, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259897841436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259897841442, "dur":44074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259897885570, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259897885690, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259897885744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259897885752, "dur":124324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259898010128, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259898010238, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259898010288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259898010295, "dur":62387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259898074886, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259898075060, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259898075128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259898075135, "dur":45809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259898120991, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259898121185, "dur":882, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259898122074, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259898122084, "dur":24594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259898146728, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259898146833, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259898146884, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259898146934, "dur":40285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259898187263, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259898187365, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259898187412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259898187418, "dur":185909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259898373373, "dur":85386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259898458767, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259898458774, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259898460199, "dur":40242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259898500560, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259898500569, "dur":1763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259898502377, "dur":1043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259898503428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259898503435, "dur":1785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259898505260, "dur":54107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259898559375, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259898559384, "dur":2680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259898562113, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259898562285, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259898562349, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259898562355, "dur":333215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259898895617, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259898895746, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259898895809, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259898895818, "dur":121377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666259899017254, "dur":7307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1666259899024568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259899024576, "dur":1356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1666259899025975, "dur":340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1666259899026316, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259899026385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259899026864, "dur":1076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1666259899027986, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1666259899028038, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259899028118, "dur":1672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1666259899029841, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1666259899029895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259899029901, "dur":3355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1666259899033302, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1666259899033350, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259899033355, "dur":2885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1666259899036296, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1666259899036489, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259899036596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259899036606, "dur":1243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1666259899037894, "dur":975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1666259899038869, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259899038962, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259899038968, "dur":1454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1666259899040468, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1666259899040513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259899040518, "dur":1708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1666259899042276, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1666259899042324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259899042330, "dur":1650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1666259899044113, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1666259899044235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259899044241, "dur":3152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1666259899048623, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1666259899048814, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259899048823, "dur":2022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1666259899050898, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1666259899050955, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259899050960, "dur":3480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1666259899054490, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1666259899054683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666259899054688, "dur":1191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1666259899055929, "dur":1981403, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666259895993087, "dur":1638, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666259895994725, "dur":47009, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666259896042257, "dur":602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1666259896042865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666259896050024, "dur":510345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1666259896560509, "dur":15857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1666259896576378, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666259896576415, "dur":1338005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1666259897914625, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666259897914758, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666259897914820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666259897914827, "dur":38302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666259897953177, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666259897953278, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666259897953328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666259897953335, "dur":25042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666259897978426, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666259897978526, "dur":3483, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666259897982019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666259897982027, "dur":161950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666259898144885, "dur":343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666259898145229, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666259898145303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666259898145311, "dur":123697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666259898269065, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666259898269335, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666259898269442, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666259898269464, "dur":167402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666259898436916, "dur":8059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666259898444980, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666259898444988, "dur":9177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666259898454231, "dur":6688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666259898460923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666259898460930, "dur":1394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666259898462372, "dur":7196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666259898469574, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666259898469582, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666259898470895, "dur":6429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666259898477330, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666259898477338, "dur":1714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666259898479100, "dur":16251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666259898495358, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666259898495369, "dur":6987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666259898502410, "dur":63851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666259898566266, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666259898566275, "dur":2151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666259898568559, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666259898568677, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666259898568729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666259898568735, "dur":66085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666259898634871, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666259898634982, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666259898635039, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666259898635045, "dur":182531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666259898817629, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666259898817738, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666259898817792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666259898817799, "dur":40665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666259898858510, "dur":498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666259898859008, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666259898859073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666259898859079, "dur":150656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666259899009789, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666259899009920, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666259899009975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666259899009981, "dur":56065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666259899066095, "dur":1971293, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666259895993076, "dur":1641, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666259895994718, "dur":47004, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666259896042257, "dur":608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1666259896042871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666259896049983, "dur":510276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1666259896560449, "dur":96227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1666259896656686, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666259896656695, "dur":252010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1666259896908869, "dur":2538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1666259896911417, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666259896911427, "dur":99335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1666259897010954, "dur":2139991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666259899150955, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666259899151096, "dur":643542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666259899794831, "dur":1242515, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259895993136, "dur":1597, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259895994733, "dur":46987, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259896042279, "dur":152917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1666259896195204, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259896195763, "dur":702005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1666259896897962, "dur":5871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1666259896903843, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259896903950, "dur":106845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1666259897010948, "dur":831937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259897842982, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259897843289, "dur":42462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259897885941, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259897886062, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259897886114, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259897886118, "dur":38423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259897924593, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259897924697, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259897924828, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259897924836, "dur":32127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259897957012, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259897957120, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259897957192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259897957200, "dur":25669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259897982922, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259897983030, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259897983083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259897983089, "dur":55566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259898038709, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259898038823, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259898038874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259898038882, "dur":51698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259898090683, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259898090836, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259898090901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259898090907, "dur":23137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259898114113, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259898114266, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259898114324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259898114331, "dur":25177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259898139568, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259898139872, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259898139949, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259898139955, "dur":26146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259898166152, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259898166267, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259898166349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259898166364, "dur":23451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259898189861, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259898189970, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259898190022, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259898190036, "dur":18477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259898208566, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259898208677, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259898208739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259898208746, "dur":18397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259898227195, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259898227317, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259898227431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259898227439, "dur":79685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259898307174, "dur":17227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1666259898324406, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259898324415, "dur":1366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1666259898325837, "dur":98307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259898424153, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259898424161, "dur":2137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259898426351, "dur":7271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1666259898433628, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259898433637, "dur":1873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1666259898435554, "dur":1190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259898436752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259898436759, "dur":12579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259898449387, "dur":59755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259898509152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259898509160, "dur":1690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259898510895, "dur":6491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1666259898517390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259898517397, "dur":1684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1666259898519131, "dur":25246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259898544387, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259898544396, "dur":9138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259898553578, "dur":20347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259898573934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259898573942, "dur":1231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259898575217, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259898575314, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259898575362, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259898575367, "dur":196311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259898771725, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259898771830, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259898771883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259898771889, "dur":187640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259898959581, "dur":6662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1666259898966249, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259898966257, "dur":1671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1666259898967984, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259898968299, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259898968361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666259898968367, "dur":131923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666259899100344, "dur":1937015, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259895993179, "dur":1576, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259895994755, "dur":46978, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259896042259, "dur":612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1666259896042877, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259896049990, "dur":1087397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1666259897137597, "dur":2838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim.exe" }}
+,{ "pid":12345, "tid":5, "ts":1666259897140450, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259897140474, "dur":2079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim.exe" }}
+,{ "pid":12345, "tid":5, "ts":1666259897142601, "dur":1902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1666259897144516, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259897145086, "dur":363776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1666259897509054, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259897509210, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259897509277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259897509284, "dur":22335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259897531672, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259897531869, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259897531936, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259897531943, "dur":131431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259897663501, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259897663641, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259897663701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259897663707, "dur":19667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259897683440, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259897683708, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259897683838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259897683873, "dur":34328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259897718249, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259897718351, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259897718402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259897718409, "dur":190095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259897908554, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259897908671, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259897908724, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259897908729, "dur":69569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259897978344, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259897978453, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259897978578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259897978584, "dur":26311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259898004950, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259898005058, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259898005114, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259898005122, "dur":19301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259898024474, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259898024605, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259898024690, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259898024701, "dur":37972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259898062714, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259898062809, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259898062852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259898062859, "dur":26483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259898089427, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259898089748, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259898089816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259898089822, "dur":119042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259898208922, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259898209019, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259898209068, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259898209072, "dur":19034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259898228151, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259898228252, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259898228300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259898228306, "dur":34566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259898262921, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259898263040, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259898263093, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259898263101, "dur":108983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259898372138, "dur":6731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1666259898378875, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259898378884, "dur":1357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1666259898380285, "dur":8606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1666259898388900, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259898388913, "dur":1838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1666259898390795, "dur":250332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259898641135, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259898641143, "dur":2110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259898643301, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259898643411, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259898643466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259898643611, "dur":88822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259898732485, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259898732633, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259898732687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259898732693, "dur":124646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259898857388, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259898857501, "dur":344, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259898857878, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259898857886, "dur":153793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259899011726, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259899011859, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259899011919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666259899011927, "dur":433870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666259899445844, "dur":1591494, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259895993215, "dur":1547, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259895994762, "dur":46970, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259896042258, "dur":129309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1666259896171582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259896171601, "dur":729423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1666259896901213, "dur":105109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1666259897006339, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897006349, "dur":12609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1666259897019133, "dur":174030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259897193168, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897193206, "dur":34597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259897228010, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259897228147, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897228306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897228710, "dur":77822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259897306579, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259897306695, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897306759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897306826, "dur":21300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259897328176, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259897328300, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897328351, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897328359, "dur":28001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259897356412, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259897356523, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897356575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897356582, "dur":40033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259897396663, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259897396795, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897396850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897396858, "dur":41440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259897438383, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259897438491, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897438541, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897438549, "dur":41976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259897480630, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259897480784, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897480905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897480912, "dur":24170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259897505128, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259897505241, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897505347, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897505357, "dur":36664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259897542073, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259897542326, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897542389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897542396, "dur":24132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259897566582, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259897566713, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897566767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897566774, "dur":23174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259897590006, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259897590125, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897590182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897590218, "dur":20246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259897610513, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259897610633, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897610683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897610689, "dur":23677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259897634430, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259897634546, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897634616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897634622, "dur":109524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259897744198, "dur":8416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1666259897752633, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897752667, "dur":2862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1666259897755574, "dur":149997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259897905579, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897905587, "dur":1763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259897907401, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259897907527, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897907584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897907593, "dur":40115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259897947764, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259897947884, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897947943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897947951, "dur":19005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259897967009, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259897967148, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897967204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259897967211, "dur":125083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259898092398, "dur":406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259898092805, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259898092962, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259898093114, "dur":43457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259898136765, "dur":489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259898137255, "dur":987, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259898138300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259898138330, "dur":131103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259898269523, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259898269885, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259898270033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259898270038, "dur":46402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259898316488, "dur":44597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259898361094, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259898361103, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259898362603, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259898362729, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259898362790, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259898362796, "dur":103640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259898466548, "dur":52884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259898519438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259898519445, "dur":1121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259898520612, "dur":6548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1666259898527165, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259898527173, "dur":1449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1666259898528670, "dur":1208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259898529885, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259898529918, "dur":2179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259898532144, "dur":5941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1666259898538116, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259898538125, "dur":1449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1666259898539655, "dur":6411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1666259898546072, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259898546080, "dur":7868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1666259898553996, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259898554121, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259898554173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259898554191, "dur":108749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259898662993, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259898663109, "dur":1341, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259898664614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259898665016, "dur":106908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259898771975, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259898772118, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259898772178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259898772190, "dur":241154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259899013391, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259899013546, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259899013625, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666259899013634, "dur":257395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666259899271078, "dur":1766273, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666259895993264, "dur":1504, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666259895994768, "dur":46962, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666259896042256, "dur":529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1666259896042803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666259896044843, "dur":503762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1666259896548767, "dur":1351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1666259896550127, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666259896550137, "dur":354382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1666259896904668, "dur":2555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1666259896907235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666259896907244, "dur":1070728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1666259897978171, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666259897978294, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666259897978351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666259897978359, "dur":22139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666259898000548, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666259898000683, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666259898000738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666259898000745, "dur":53844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666259898054688, "dur":1802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666259898059062, "dur":6036, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666259898065108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666259898065117, "dur":166711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666259898231890, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666259898232025, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666259898232087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666259898232093, "dur":42425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666259898274565, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666259898274714, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666259898274773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666259898274781, "dur":42460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666259898317287, "dur":7372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1666259898324662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666259898324667, "dur":2237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1666259898326954, "dur":7000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1666259898333960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666259898333967, "dur":1415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1666259898335436, "dur":134150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666259898469612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666259898469874, "dur":36353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666259898506271, "dur":6384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1666259898512660, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666259898512668, "dur":1684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1666259898514413, "dur":1177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666259898515598, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666259898515607, "dur":1461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666259898517120, "dur":18923, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666259898536052, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666259898536060, "dur":1173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666259898537282, "dur":32525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666259898570178, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666259898570215, "dur":3934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666259898574207, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666259898574314, "dur":322, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666259898574642, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666259898574648, "dur":138932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666259898713684, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666259898713873, "dur":415, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666259898714330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666259898714338, "dur":43803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666259898758216, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666259898758375, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666259898758434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666259898758442, "dur":36461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666259898794954, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666259898795076, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666259898795174, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666259898795182, "dur":222585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666259899017811, "dur":31637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666259899049454, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666259899049460, "dur":1720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666259899051227, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/plane sim_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1666259899051278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666259899051282, "dur":3511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/plane sim_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1666259899054841, "dur":1982492, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666259895993310, "dur":1465, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666259895994775, "dur":46949, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666259896042259, "dur":129062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1666259896171328, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666259896171340, "dur":726422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1666259896897943, "dur":114977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1666259897012930, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666259897012939, "dur":8688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1666259897021809, "dur":3564075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666259900585893, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666259900585900, "dur":451202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666259901037303, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1666259901037306, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666259901044254, "dur":3369, "ph":"X", "name": "ProfilerWriteOutput" }
+,
