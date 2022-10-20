@@ -1,9 +1,8 @@
 # How to play
  - Q/E = Roll
  - W = Forward
- - numpad 1, 2 = switch camera
+ - C = switch camera
  - pause = pause game
- - ALT+F4 = Exit or Reset game
  
 # dev tools
  - PSpeed = Forward speed
