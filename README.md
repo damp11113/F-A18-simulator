@@ -14,4 +14,4 @@
  - RAcceleration = Roll Acceleration
  
 # License
-This game is under ![GNU General Public License](https://github.com/damp11113/F-A18-simulator/blob/main/LICENSE).
+This game is under [GNU General Public License](https://github.com/damp11113/F-A18-simulator/blob/main/LICENSE).
