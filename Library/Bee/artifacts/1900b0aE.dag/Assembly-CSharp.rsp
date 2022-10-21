@@ -356,9 +356,9 @@
 "Assets/Scripts/FPSDisplay.cs"
 "Assets/Scripts/hideUi.cs"
 "Assets/Scripts/MainMenu.cs"
+"Assets/Scripts/onloading.cs"
 "Assets/Scripts/pause.cs"
 "Assets/Scripts/planeController.cs"
-"Assets/Scripts/setMouse.cs"
 "Assets/Scripts/switchCam.cs"
 -langversion:9.0
 

@@ -109,8 +109,8 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"C:/Users/Lenovo/Desktop/plane sim/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/AOT/Newtonsoft.Json.dll"
--r:"C:/Users/Lenovo/Desktop/plane sim/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"C:/Users/Lenovo/Desktop/F-A18 simulator/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/AOT/Newtonsoft.Json.dll"
+-r:"C:/Users/Lenovo/Desktop/F-A18 simulator/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Z:/programs/unity/2021.3.11f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll"
 -r:"Z:/programs/unity/2021.3.11f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
 -r:"Z:/programs/unity/2021.3.11f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll"
@@ -309,7 +309,13 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
 "Assets/Damian Gonzalez/dg_simpleCamFollow/Scripts/dg_simpleCamFollow.cs"
-"Assets/planeController.cs"
+"Assets/Scripts/FPSDisplay.cs"
+"Assets/Scripts/hideUi.cs"
+"Assets/Scripts/MainMenu.cs"
+"Assets/Scripts/onloading.cs"
+"Assets/Scripts/pause.cs"
+"Assets/Scripts/planeController.cs"
+"Assets/Scripts/switchCam.cs"
 -langversion:9.0
 
 /deterministic

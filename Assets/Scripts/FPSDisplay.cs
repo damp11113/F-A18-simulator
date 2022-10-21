@@ -8,7 +8,7 @@ public class FPSDisplay : MonoBehaviour {
 	private float time;
 	private int frameCount;
 
- 
+
 	void Update() {
 		// Update time.
 		time += Time.deltaTime;

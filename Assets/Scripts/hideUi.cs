@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class hideUi : MonoBehaviour
 {
-    public Canvas UI;
+    public GameObject Panel, Panel2, Panel3, Panel4, Panel5;
     private int intelligence = 2;
 
     // Start is called before the first frame update
@@ -28,10 +28,18 @@ public class hideUi : MonoBehaviour
     void hideuii() {
         switch (intelligence) {
             case 2:
-                UI.enabled = true;
+                Panel.SetActive(true);
+                Panel2.SetActive(true);
+                Panel3.SetActive(true);
+                Panel4.SetActive(true);
+                Panel5.SetActive(true);
                 break;
             case 1:
-                UI.enabled = false;
+                Panel.SetActive(false);
+                Panel2.SetActive(false);
+                Panel3.SetActive(false);
+                Panel4.SetActive(false);
+                Panel5.SetActive(false);
                 break;
             default:
                 print ("Incorrect intelligence level.");

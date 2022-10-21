@@ -5,7 +5,7 @@ using UnityEngine;
 public class MainMenu : MonoBehaviour
 {
     public void StartGame() {
-        Application.LoadLevel("Main");
+        Application.LoadLevel("LoadingScreen");
     }
     public void SettingsGame() {
         Application.LoadLevel("Settings");
