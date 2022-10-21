@@ -13,6 +13,9 @@
  - RAcceleration = Roll Acceleration
 
 # ScreenShot
+![](https://raw.githubusercontent.com/damp11113/F-A18-simulator/main/screenshot/1.png)
+![](https://raw.githubusercontent.com/damp11113/F-A18-simulator/main/screenshot/2.png)
+![](https://raw.githubusercontent.com/damp11113/F-A18-simulator/main/screenshot/3.png)
 
 
 # License
