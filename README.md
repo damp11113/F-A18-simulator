@@ -4,7 +4,7 @@
  - C = switch camera
  - pause = pause game
  
-# dev tools
+# Settings Toolbars 
  - PSpeed = Forward speed
  - LRSpeed = Lock Rate Speed (Mouse sensitivity)
  - SSpeed = Strate Speed
